@@ -11,6 +11,7 @@ import {
   SiPostman,
   SiFigma,
   SiJira,
+  SiExpo,
 } from "react-icons/si";
 import pic from "../assets/pic.jpg";
 
@@ -40,6 +41,7 @@ export const skills: Skill[] = [
   { name: "Postman", icon: SiPostman, color: "#FF6C37" },
   { name: "Figma", icon: SiFigma, color: "#F24E1E" },
   { name: "Jira", icon: SiJira, color: "#0052CC" },
+  { name: "React-Native", icon: SiExpo, color: "#06B6D4" },
 ];
 
 export const education = [
@@ -107,7 +109,7 @@ export const projects: Project[] = [
     id: 1,
     title: "MangTask",
     subtitle: "Personal Project",
-    period: "2024",
+    period: "2025",
     tags: ["React", "TypeScript", "Tailwind", "Shadcn", "Laravel", "mySQL"],
     brief: "A developer productivity dashboard with task tracking.",
     bullets: [
@@ -116,7 +118,7 @@ export const projects: Project[] = [
     ],
     links: [
       { label: "Live Demo", url: "#" },
-      { label: "GitHub", url: "#" },
+      { label: "GitHub", url: "https://github.com/ZyyyyD/MangTask" },
     ],
     emoji: "📊",
     gradient:
@@ -124,18 +126,16 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "FileSend",
-    subtitle: "Open Source",
-    period: "2023",
-    tags: ["React", "Node.js", "S3", "Docker"],
-    brief: "Secure peer-to-peer file sharing with end-to-end encryption.",
+    title: "Hydrolize",
+    subtitle: "React Native",
+    period: "2026",
+    tags: ["React-native", "Expo", "AsyncStorage"],
+    brief: "Tracking daily water intake ",
     bullets: [
-      "Client-side AES-256 encryption before upload — server never sees plaintext.",
-      "Files auto-delete from S3 after link expiry (configurable 1h–7d).",
-      "Dockerized deployment, one-command self-host.",
+      "Tracking daily water intake"
     ],
-    links: [{ label: "GitHub", url: "#" }],
-    emoji: "🔒",
+    links: [{ label: "GitHub", url: "https://github.com/ZyyyyD/hydrolize" }],
+    emoji: "💧",
     gradient:
       "linear-gradient(135deg, rgba(167,139,250,0.2), rgba(124,58,237,0.2))",
   },
