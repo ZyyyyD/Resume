@@ -94,8 +94,8 @@ export const experiences: Experience[] = [
 export type Project = {
   id: number;
   title: string;
-  subtitle: string;
-  period: string;
+  subtitle: string | null;
+  period: string | null;
   tags: string[];
   brief: string;
   bullets: string[];
@@ -120,42 +120,41 @@ export const projects: Project[] = [
       { label: "Live Demo", url: "#" },
       { label: "GitHub", url: "https://github.com/ZyyyyD/MangTask" },
     ],
-    emoji: "📊",
+    emoji: "",
     gradient:
       "linear-gradient(135deg, rgba(245,158,11,0.2), rgba(167,139,250,0.2))",
   },
   {
     id: 2,
     title: "Hydrolize",
-    subtitle: "React Native",
-    period: "2026",
+    subtitle: null,
+    period: null,
     tags: ["React-native", "Expo", "AsyncStorage"],
-    brief: "Tracking daily water intake ",
+    brief: "A mobile hydration tracker that helps users monitor daily water intake with smart goal calculations and a progress tracking system.",
     bullets: [
-      "Tracking daily water intake"
+      "A mobile hydration tracker that helps users monitor daily water intake with smart goal calculations and a progress tracking system."
     ],
     links: [{ label: "GitHub", url: "https://github.com/ZyyyyD/hydrolize" }],
-    emoji: "💧",
+    emoji: "",
     gradient:
       "linear-gradient(135deg, rgba(167,139,250,0.2), rgba(124,58,237,0.2))",
   },
   {
     id: 3,
-    title: "UIKit",
-    subtitle: "Open Source Library",
-    period: "2023",
-    tags: ["React", "TypeScript", "Storybook"],
-    brief: "A minimal accessible React component library with 20+ components.",
+    title: "Knowflow",
+    subtitle: null,
+    period: null,
+    tags: ["React", "TypeScript", "Prisma", "OpenAI", "Express", "Tanstack Query"],
+    brief: "A full-stack web application where users can store documents and query them using natural language, powered by the OpenAI API.",
     bullets: [
       "20+ components documented with live Storybook examples.",
       "WCAG 2.1 AA compliant — tested with screen readers.",
       "Tree-shakeable package under 15 kB gzipped.",
     ],
     links: [
-      { label: "Docs", url: "#" },
-      { label: "npm", url: "#" },
+      { label: "GitHub", url: "#" },
     ],
-    emoji: "🎨",
+    emoji: "",
     gradient:
       "linear-gradient(135deg, rgba(124,58,237,0.2), rgba(245,158,11,0.2))",
   },

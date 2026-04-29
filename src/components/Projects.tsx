@@ -102,14 +102,6 @@ export default function Projects() {
                   }}>
                   {proj.emoji}
                 </div>
-                <p
-                  style={{
-                    fontSize: "13px",
-                    fontWeight: 600,
-                    color: "rgba(243,243,247,0.5)",
-                  }}>
-                  {proj.subtitle} · {proj.period}
-                </p>
               </div>
               <div
                 style={{
