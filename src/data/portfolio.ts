@@ -117,7 +117,10 @@ export const projects: Project[] = [
       "Dark/light mode toggle with persistent user preference.",
     ],
     links: [
-      { label: "Live Demo", url: "#" },
+      {
+        label: "Live Demo",
+        url: "https://mangtask-production.up.railway.app/login",
+      },
       { label: "GitHub", url: "https://github.com/ZyyyyD/MangTask" },
     ],
     emoji: "",
@@ -130,9 +133,10 @@ export const projects: Project[] = [
     subtitle: null,
     period: null,
     tags: ["React-native", "Expo", "AsyncStorage"],
-    brief: "A mobile hydration tracker that helps users monitor daily water intake with smart goal calculations and a progress tracking system.",
+    brief:
+      "A mobile hydration tracker that helps users monitor daily water intake with smart goal calculations and a progress tracking system.",
     bullets: [
-      "A mobile hydration tracker that helps users monitor daily water intake with smart goal calculations and a progress tracking system."
+      "A mobile hydration tracker that helps users monitor daily water intake with smart goal calculations and a progress tracking system.",
     ],
     links: [{ label: "GitHub", url: "https://github.com/ZyyyyD/hydrolize" }],
     emoji: "",
@@ -144,16 +148,22 @@ export const projects: Project[] = [
     title: "Knowflow",
     subtitle: null,
     period: null,
-    tags: ["React", "TypeScript", "Prisma", "OpenAI", "Express", "Tanstack Query"],
-    brief: "A full-stack web application where users can store documents and query them using natural language, powered by the OpenAI API.",
+    tags: [
+      "React",
+      "TypeScript",
+      "Prisma",
+      "OpenAI",
+      "Express",
+      "Tanstack Query",
+    ],
+    brief:
+      "A full-stack web application where users can store documents and query them using natural language, powered by the OpenAI API.",
     bullets: [
       "20+ components documented with live Storybook examples.",
       "WCAG 2.1 AA compliant — tested with screen readers.",
       "Tree-shakeable package under 15 kB gzipped.",
     ],
-    links: [
-      { label: "GitHub", url: "#" },
-    ],
+    links: [{ label: "GitHub", url: "#" }],
     emoji: "",
     gradient:
       "linear-gradient(135deg, rgba(124,58,237,0.2), rgba(245,158,11,0.2))",
