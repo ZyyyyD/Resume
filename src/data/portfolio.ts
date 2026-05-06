@@ -164,7 +164,7 @@ export const projects: Project[] = [
       "Tree-shakeable package under 15 kB gzipped.",
     ],
     links: [{ label: "GitHub", url: "#" }],
-    emoji: "",
+    emoji: "Under Development",
     gradient:
       "linear-gradient(135deg, rgba(124,58,237,0.2), rgba(245,158,11,0.2))",
   },
